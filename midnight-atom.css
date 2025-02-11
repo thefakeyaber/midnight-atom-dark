@@ -17,16 +17,16 @@
 	--idle-indicator: hsl(50, 60%, 60%); /* change to #f0b232 for default yellow */
 	--streaming-indicator: hsl(260, 60%, 60%); /* change to #593695 for default purple */
 
-	/* accent colors */
-	--accent-1: hsl(220, 50%, 60%); /* links */
-	--accent-2: hsl(220, 50%, 50%); /* general unread/mention elements */
-	--accent-3: hsl(220, 50%, 45%); /* accent buttons */
-	--accent-4: hsl(220, 50%, 40%); /* accent buttons when hovered */
-	--accent-5: hsl(220, 50%, 35%); /* accent buttons when clicked */
-	--mention: hsla(220, 50%, 50%, 0.1); /* mentions & mention messages */
-	--mention-hover: hsla(220, 50%, 50%, 0.05); /* mentions & mention messages when hovered */
+	/* Accent Colors */
+	--accent-1: #61afef; /* links */
+	--accent-2: #61afef; /* general unread/mention elements */
+	--accent-3: #61afef; /* accent buttons */
+	--accent-4: #528cc8; /* accent buttons when hovered */
+	--accent-5: #4173a1; /* accent buttons when clicked */
+	--mention: rgba(97, 175, 239, 0.1); /* mentions & mention messages */
+	--mention-hover: rgba(97, 175, 239, 0.05); /* mentions & mention messages when hovered */
 	
-	/* text colors */
+	/* Text Colors */
 	--text-0: #abb2bf; /* text on colored elements */
 	--text-1: #abb2bf; /* other normally white text */
 	--text-2: #e06c75; /* headings and important text */
@@ -34,14 +34,14 @@
 	--text-4: #61afef; /* icon buttons and channels */
 	--text-5: #5c6370; /* muted channels/chats and timestamps */
 	
-	/* background and dark colors */
+	/* Background and Dark Colors */
 	--bg-1: #21252b; /* dark buttons when clicked */
 	--bg-2: #282c34; /* dark buttons */
 	--bg-3: #2c313c; /* spacing, secondary elements */
 	--bg-4: #282c34; /* main background color */
-	--hover: hsla(220, 14%, 31%, 0.1); /* channels and buttons when hovered */
-	--active: hsla(220, 14%, 31%, 0.2); /* channels and buttons when clicked or selected */
-	--message-hover: hsla(220, 0%, 0%, 0.1); /* messages when hovered */
+	--hover: rgba(92, 99, 112, 0.1); /* channels and buttons when hovered */
+	--active: rgba(92, 99, 112, 0.2); /* channels and buttons when clicked or selected */
+	--message-hover: rgba(0, 0, 0, 0.1); /* messages when hovered */
 
 	/* amount of spacing and padding */
 	--spacing: 8px;
